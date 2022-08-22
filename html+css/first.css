@@ -1,0 +1,17 @@
+/* selector{
+    property:value;
+} */
+/* type selector */
+h1{
+    color:blue;
+}
+ol{
+    color:rgb(252,211,3);
+}
+p{
+    color:#fc036f;
+
+}
+h4{
+    color :rgba(252,211,3,0.5)
+}
