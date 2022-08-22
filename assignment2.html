@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Forms Assignment</title>
+    </head>
+    <body>
+        <h1> Course Sign Up Page </h1>
+        <p>Please Note:First Name,Last Name,Password and Email are required.</p>
+        <form action="https://t3.ftcdn.net/jpg/02/91/52/22/360_F_291522205_XkrmS421FjSGTMRdTrqFZPxDY19VxpmL.jpg" method="get">
+            <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" required placeholder="First Name" id="firstName">
+            <label for="lastName">Last Name:</label>
+            <input type="text" required placeholder="Last Name" id="lastName">
+            </div>
+            <div>
+            <label for="email">Email:</label>
+            <input type="email" required placeholder="name@email.com" id="email">
+            <label for="pass">Password:</label>
+            <input type="password" required  id="pass">
+            </div>
+            <p> Are you over the age of 18?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="age" id="yes">
+            <label for="no">No</label>
+            <input type="radio" name="age" id="no">
+            <p> Do you have a Credit Card or PayPal?</p>
+            <select  name="card">
+                <option value="creditCard"> Credit Card</option>
+                <option value="payPal">PayPal</option>
+            </select>
+            <br/>
+            <input type="submit"  value="Sign Up">
+        </form>
+        <a href="htmltags.html">htmltags</a>
+    </body>
+</html>
