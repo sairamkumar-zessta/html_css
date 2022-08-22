@@ -1,0 +1,16 @@
+body{
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/beach-quotes-1559667853.jpg");
+    color:white;
+    background-size: cover;
+    height:100vh;
+}
+div{
+    background:blue;
+    border:2px dashed red;
+}
+SPAN{
+    background-color: red;
+    color:black;
+    border:2px dashed white;
+
+}
